@@ -91,9 +91,9 @@ function content_audit_term_count( $terms, $taxonomy ) {
 				
 				// update per-post-type count
 				if ( isset( $typecount ) ) {
-					$option[$term] = $typecount;
-					update_option( '_audit_term_count_'.$post_type, $option );
-				}	
+					$option[$term + 1] = $typecount;
+                    update_option('_audit_term_count_' . $post_type, $option);
+            }	
 			}
 			
 			// update total count for all post types
