@@ -35,7 +35,7 @@ function content_audit_admin_bar_links() {
                 ), admin_url('/admin-ajax.php'));
 
             if ($checked) {
-                $title = '&checkmark; ' . $title;
+                $title = '&#10003; ' . $title;
             };
 
             $wp_admin_bar->add_menu( array( 
