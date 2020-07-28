@@ -105,5 +105,5 @@ function content_audit_add_pages() {
     // Add a new submenu under Settings:
 	add_options_page( __( 'Content Audit Options', 'content-audit' ), __( 'Content Audit', 'content-audit' ), 'manage_options', 'content-audit', 'content_audit_options' );
 	// Add the boss view under the Dashboard:
-	add_dashboard_page( __( 'Content Audit Overview', 'content-audit' ), __( 'Content Audit Overview', 'content-audit' ), 'manage_options', 'content-audit', 'content_audit_overview' );
+	//add_dashboard_page( __( 'Content Audit Overview', 'content-audit' ), __( 'Content Audit Overview', 'content-audit' ), 'manage_options', 'content-audit', 'content_audit_overview' );
 }
